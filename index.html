@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/Login.css">
     <script defer src="js/script.js"></script>
     <title>Login Page</title>
 </head>
     <body>
-        <h1>Escola de Dança Caroline</h1>
         <div class="login-box-container">
-            <h2>email</h2>
-            <input type="email" name="email" id="email-box" placeholder="Coloque seu Email">
-            <h2>password</h2>
-            <input type="password" name="password" id="password-box" placeholder="Digite sua Senha">
-            <button type="submit" onclick="submitButton()">Login</button>
+            <div class="login-content">
+                <img class="logo-png" src="img/carolineLogo.png" alt="logo-png">
+                <input class="email-input" type="email" name="email" id="email-box" placeholder="Coloque seu Email">
+
+                <input class="password-input" type="password" name="password" id="password-box" placeholder="Digite sua Senha">
+                
+                <button class="login-btn" type="submit" onclick="submitButton()">Login</button>
+                <h3 class="forget-pass">esqueci a senha</h3>
+            </div>
         </div>
     </body>
 </html>

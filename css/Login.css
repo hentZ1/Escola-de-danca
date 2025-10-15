@@ -1,0 +1,66 @@
+.login-box-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-content{
+    width: 509px;
+    height: 685px;
+    border-radius: 40px;
+    background-color: #FFD8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
+}
+.email-input{
+    width: 356px;
+    height: 63px;
+    border-radius: 35px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
+}
+.password-input{
+    width: 356px;
+    height: 63px;
+    border-radius: 35px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
+}
+.login-btn{
+    width: 252px;
+    height: 73px;
+    border-radius: 50px;
+    border: none;
+    background-color: #791978;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
+
+}
+.logo-png{
+    width: 215.08px;
+    height: 215.08px;
+}
+.forget-pass{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00000050;
+
+}
