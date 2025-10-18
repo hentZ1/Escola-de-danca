@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 .login-box-container{
     position: fixed;
     top: 0;
@@ -27,7 +28,7 @@
     border: none;
     background-color: white;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Inter", sans-serif;
     box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
 }
 .password-input{
@@ -37,7 +38,7 @@
     border: none;
     background-color: white;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Inter", sans-serif;
     box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.4);
 }
 .login-btn{
@@ -47,7 +48,7 @@
     border: none;
     background-color: #791978;
     margin-top: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     text-align: center;
     color: white;
@@ -60,7 +61,7 @@
 }
 .forget-pass{
     font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Inter", sans-serif;
     color: #00000050;
 
 }
