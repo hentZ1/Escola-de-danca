@@ -1,5 +1,3 @@
-
-
 function submitButton(){
 
     const email = document.getElementById('email-box').value.trim();
