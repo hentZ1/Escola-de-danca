@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign_in.css">
     <title>Sign-in</title>
 </head>
     <body>
-        
+        <div class="sign-in-container">
+            <div class="sign-in-content">
+
+               <form class="cadastro-form">
+                    <div class="form-section">
+                        <h3>Dados do Responsável</h3>
+
+                        <label>
+                        Nome do Responsável:
+                        <input type="text" name="responsavel_nome" placeholder="Ex: João Silva" required>
+                        </label>
+
+                        <label>
+                        CPF do Responsável:
+                        <input type="text" name="responsavel_cpf" placeholder="000.000.000-00" required>
+                        </label>
+
+                        <label>
+                        Telefone do Responsável:
+                        <input type="tel" name="responsavel_telefone" placeholder="(11) 99999-9999" required>
+                        </label>
+
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Dados do Aluno</h3>
+
+                        <label>
+                        Nome do Aluno:
+                        <input type="text" name="aluno_nome" placeholder="Ex: Maria Silva" required>
+                        </label>
+
+                        <label>
+                        Modalidade:
+                        <input type="text" name="modalidade" placeholder="Ex: Ballet / Jazz / Hip-hop" required>
+                        </label>
+
+                    </div>
+
+                <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

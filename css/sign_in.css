@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #E8E0E8;
+    min-height: 100vh;
+}
+
+.sign-in-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 1rem;
+    overflow-y: auto;
+}
+
+.sign-in-content {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 35px;
+    background-color: #A376A2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cadastro-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-section {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-section h3 {
+    color: #6B3F69;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #333;
+    gap: 0.3rem;
+}
+
+input {
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E8E0E8;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(107, 63, 105, 0.3);
+}
+
+button[type="submit"] {
+    width: 80%;
+    max-width: 260px;
+    height: 60px;
+    align-self: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #6B3F69;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #573256;
+}
+
+@media (max-width: 1200px) {
+    .sign-in-content {
+        max-width: 480px;
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .sign-in-container {
+        padding: 3rem 1rem;
+    }
+
+    .sign-in-content {
+        max-width: 450px;
+        gap: 1.5rem;
+        border-radius: 30px;
+    }
+
+    input {
+        height: 48px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .sign-in-container {
+        align-items: flex-start;
+        padding: 2rem 0.8rem;
+    }
+
+    .sign-in-content {
+        max-width: 95%;
+        border-radius: 25px;
+        padding: 1.8rem 1rem;
+        gap: 1rem;
+    }
+
+    .form-section {
+        padding: 1rem;
+    }
+
+    input {
+        height: 45px;
+        font-size: 0.9rem;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        height: 50px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .sign-in-content {
+        padding: 1.5rem 0.8rem;
+    }
+
+    .form-section h3 {
+        font-size: 1.1rem;
+    }
+
+    input {
+        height: 42px;
+        font-size: 0.85rem;
+    }
+}
