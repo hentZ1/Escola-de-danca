@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard do Aluno</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar-left">
+            <img src="img/undefined.jpeg" alt="Logo" class="logo">
+            <h1>Bem-vindo, <span id="nome-aluno">Maria Silva</span></h1>
+        </div>
+
+        <nav class="navbar-right">
+            <button class="nav-btn active" data-section="inicio">Início</button>
+            <button class="nav-btn" data-section="aulas">Minhas Aulas</button>
+            <button class="nav-btn" data-section="pagamentos">Pagamentos</button>
+            <button class="nav-btn" data-section="perfil">Perfil</button>
+            <button class="nav-btn sair-btn" data-section="sair">Sair</button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="inicio" class="section active">
+            <h2>Resumo</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Próxima Aula</h3>
+                    <p>Segunda - 18h (Ballet)</p>
+                </div>
+                <div class="card">
+                    <h3>Presenças</h3>
+                    <p>85%</p>
+                </div>
+                <div class="card">
+                    <h3>Mensalidade</h3>
+                    <p>Em dia ✅</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aulas" class="section">
+            <h2>Minhas Aulas</h2>
+            <ul class="lista-aulas">
+                <li><strong>Ballet</strong> — Segunda e Quarta, 18h</li>
+                <li><strong>Jazz</strong> — Sexta, 19h</li>
+            </ul>
+        </section>
+
+        <section id="pagamentos" class="section">
+            <h2>Histórico de Pagamentos</h2>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th>Status</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Outubro</td>
+                        <td class="pago">Pago</td>
+                        <td>R$ 250,00</td>
+                    </tr>
+                    <tr>
+                        <td>Novembro</td>
+                        <td class="pendente">Pendente</td>
+                        <td>R$ 250,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="perfil" class="section">
+            <h2>Meu Perfil</h2>
+            <form class="perfil-form">
+                <label>Nome:<input type="text" value="Maria Silva" disabled></label>
+                <label>Modalidade:<input type="text" value="Ballet e Jazz" disabled></label>
+                <label>Telefone:<input type="tel" value="(11) 99999-9999" disabled></label>
+                <label>Email:<input type="email" value="maria@email.com" disabled></label>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
